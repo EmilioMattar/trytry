@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>קפיצי פיתול</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="pictures/icon_logo.png" type="image/png" />
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <header>
+        <nav>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html" class="active">עמוד הבית</a></li>
+            <li><a href="about.html">מי אנחנו</a></li>
+            <li class="dropdown">
+              <a href="#">מוצרים ▼</a>
+              <ul class="dropdown-content">
+                <li><a href="compression_spring.html">קפיצי לחץ</a></li>
+                <li><a href="pull_spring.html">קפיצי משיכה</a></li>
+                <li><a href="torsion_spring.html">קפיצי פיתול</a></li>
+                <li><a href="shaped_spring.html">קפיצים צורתיים</a></li>
+                <li><a href="flat_spring.html">קפיצים שטוחים</a></li>
+                <li>
+                  <a href="double_torsion_spring.html">קפיצים פיתול כפול</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="clients.html">הלקוחות שלנו</a></li>
+            <li><a href="contact.html">יצירת קשר</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <script>
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+          document.querySelector(".nav-links").classList.toggle("active");
+        });
+    </script>
+<center>
+      <main>
+        <!-- Section with image and new content -->
+        <section class="spring-info">
+          <div class="spring-description">
+            <h1>קפיצי פיתול</h1>
+            <p>
+              קפיצי פיתול נועדו לתמוך או להתנגד לכוח מתפתל סביב נקודה מרכזית.
+              בדרך כלל קפיץ פיתול מיוצר עם כריכות קרובות ללא מתח בין הסלילים.
+            </p>
+            <p>
+              קפיצי פיתול יכולים להיות עם סליל אחד או עם שני סלילים ("קפיץ פיתול
+              כפול") הנסללים בכיוונים מנוגדים. כל אחד מהסלילים בקפיץ כפול, פועל
+              בנפרד ואת המומנט הכולל מחשבים כסכום של המומנטים.
+            </p>
+            <p>
+              מפעל "קפיצי נורדיה" מייצר קפיצי פיתול מחוטים בקוטר 0.15-16 מ"מ,
+              כולל סוגים שונים של רגליים בהתאם לדרישות הלקוחות. קו הייצור כולל
+              מכונות CNC ותנורים ניידים לשחרור מאמצים.
+            </p>
+            <p>
+              צוות המהנדסים שלנו משתמש בתוכנות מקצועיות עבור תכנון וסימולציה של
+              הקפיצים, בהתחשב בפרמטרים של סביבת העבודה כגון: טמפרטורה, עומס,
+              תדירות, עייפות ועוד.
+            </p>
+            <a
+              class="cta-button"
+              href="https://wa.me/972504011578"
+              target="_blank"
+              >יצירת קשר בווטסאפ</a
+            >
+          </div>
+          <div class="spring-image">
+            <img src="pictures/torsion_spring.jpg" alt="קפיצי פיתול" />
+          </div>
+        </section>
+
+        <!-- Large Image at the bottom -->
+        <!-- <section class="large-spring-image">
+                <img src="pictures/large_compression_spring.jpg" alt="Large Torsion Spring">
+            </section> -->
+      </main>
+    </div>
+  </center>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>קפיץ הגליל בע״ם - חאלד עאמר</h3>
+          <p>כתובת: אלמעברה, כפר מנדא<br />טלפון: 050-4011578</p>
+        </div>
+        <div class="footer-menu-center">
+          <ul class="footer-nav-links">
+            <li><a href="index.html" class="active">דף הבית</a></li>
+            <li><a href="about.html">אודותינו</a></li>
+            <li><a href="clients.html">הלקוחות שלנו</a></li>
+            <li><a href="contact.html">צור קשר</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <hr />
+        <p>© 2024 קפיץ הגליל בע״ם - כל הזכויות שמורות</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
